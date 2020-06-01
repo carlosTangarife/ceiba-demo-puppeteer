@@ -34,8 +34,6 @@ jobs:
             sudo sed -i 's|HERE/chrome"|HERE/chrome" --no-sandbox|g' /opt/google/chrome/google-chrome
             rm google-chrome.deb
 
-      - run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false npm i
-
       - save_cache:
           paths:
             - node_modules
