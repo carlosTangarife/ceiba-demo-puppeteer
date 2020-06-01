@@ -1,0 +1,14 @@
+{
+    "payer": {
+        "email": "cjt860826@gmail.com",
+        "document": "1130584594",
+        "name": "juanito",
+        "lastname": "mtf"
+    },
+    "delivery": {
+        "department": "05",
+        "city": "1078",
+        "address": "cra 5 # 20-50, medellin, itagui",
+        "phone": "3004721511"
+    }
+}

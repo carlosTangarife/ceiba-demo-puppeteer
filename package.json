@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Carlos Tangarife",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^3.1.0",
+    "puppeteer-core": "^3.1.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosTangarife/ceiba-demo-puppeteer.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "venndelo",
+    "js",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/carlosTangarife/ceiba-demo-puppeteer/issues"
+  },
+  "homepage": "https://github.com/carlosTangarife/ceiba-demo-puppeteer#readme",
+  "description": ""
+}
