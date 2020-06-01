@@ -1,0 +1,22 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.5.0-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: node-modules-{{ checksum "package.json" }}
+      - run:
+          name: Start test
+          command: |
+            npm install
+            npm run test
+      - save_cache:
+          key: node-modules-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - store_artifacts:
+          path: ./screenshot/
+          destination: screenshots
