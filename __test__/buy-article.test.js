@@ -51,7 +51,7 @@ describe("should buy product", () => {
     })
 
     it('choose payment method', async () => {
-        await this.page.waitFor(1500);
+        await page.waitFor(1500);
         await page.waitForSelector('.grid-x > .cell:nth-child(3) > .el-radio > .el-radio__input > .el-radio__inner')
         await page.click('.grid-x > .cell:nth-child(3) > .el-radio > .el-radio__input > .el-radio__inner')
         await page.screenshot({ path: `${path_screenshoot}/payment-method.png` })
