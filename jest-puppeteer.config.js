@@ -1,10 +1,11 @@
 module.exports = {
-    launch: { 
+    launch: {
         headless: true,
         args: [
             "--start-maximized",
             "--no-sandbox",
             "--disable-setuid-sandbox"
-            ],
-        waitUntil: "networkidle2" }
+        ],
+        waitUntil: "networkidle2"
+    }
 }
